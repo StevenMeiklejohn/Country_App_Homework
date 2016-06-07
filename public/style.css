@@ -1,0 +1,21 @@
+body {
+    background-image: url("http://vanani.com/wp-content/uploads/2014/04/world-map-11.jpg");
+}
+
+h2 { 
+  line-height: 1.8em; font-size: 1.7em; display: inline; 
+}  
+
+h2 span { 
+  padding: 0.2em; box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7); background-color: #fff; background-color: rgba(#fff,0.7); 
+  }
+
+p { 
+    line-height: 1.8em; 
+    font-size: 1.7em; 
+    display: inline; 
+    }  
+
+p span { padding: 0.2em; box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7); background-color: #fff; background-color: rgba(#fff,0.7); 
+    }
+
