@@ -10,12 +10,21 @@ h2 span {
   padding: 0.2em; box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7); background-color: #fff; background-color: rgba(#fff,0.7); 
   }
 
-p { 
-    line-height: 1.8em; 
-    font-size: 1.7em; 
-    display: inline; 
-    }  
+  div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+  }
 
-p span { padding: 0.2em; box-shadow: 0.2em 0 0 rgba(#fff,0.7), -0.2em 0 0 rgba(#fff,0.7); background-color: #fff; background-color: rgba(#fff,0.7); 
-    }
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
 
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  } 
